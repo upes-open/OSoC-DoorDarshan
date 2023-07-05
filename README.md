@@ -21,11 +21,7 @@
 
 ### Tech Stack
 
-Python: ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB)
-
-openCV: ![Static Badge](https://img.shields.io/badge/OpenCV-101010?logo=opencv&logoColor=%235C3EE8)
-
-flutter: ![Static Badge](https://img.shields.io/badge/Flutter-202020?logo=flutter&logoColor=%2302569B)
+![Static Badge](https://img.shields.io/badge/Python-101010?logo=python&logoColor=%233776AB) ![Static Badge](https://img.shields.io/badge/OpenCV-101010?logo=opencv&logoColor=%235C3EE8) ![Static Badge](https://img.shields.io/badge/Flutter-202020?logo=flutter&logoColor=%2302569B)
 
 
 
