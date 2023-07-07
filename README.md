@@ -8,10 +8,10 @@
 
 
 
-![GitHub contributors](https://img.shields.io/github/contributors/upes-open/Osoc-DoorDarshan)
-![GitHub forks](https://img.shields.io/github/forks/upes-open/Osoc-DoorDarshan)
-![GitHub Repo stars](https://img.shields.io/github/stars/upes-open/OsoC-DoorDarshan)
-![GitHub issues](https://img.shields.io/github/issues/upes-open/Osoc-DoorDarshan)
+![GitHub contributors](https://img.shields.io/github/contributors/upes-open/OSoC-DoorDarshan)
+![GitHub forks](https://img.shields.io/github/forks/upes-open/OSoC-DoorDarshan)
+![GitHub Repo stars](https://img.shields.io/github/stars/upes-open/OSoC-DoorDarshan)
+![GitHub issues](https://img.shields.io/github/issues/upes-open/OSoC-DoorDarshan)
 
 </div>
 
