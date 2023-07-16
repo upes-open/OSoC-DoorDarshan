@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:part1/services/location.dart';
 
 import 'package:part1/slidepart.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
@@ -28,6 +29,7 @@ class _CameraAppState extends State<CameraApp> {
   @override
   void initState() {
     super.initState();
+
     controller = CameraController(_cameras[0], ResolutionPreset.max);
     controller.initialize().then((_) {
       if (!mounted) {
@@ -46,6 +48,14 @@ class _CameraAppState extends State<CameraApp> {
         }
       }
     });
+    getLocationData();
+  }
+
+  void getLocationData() async {
+    Location location = Location();
+    await location
+        .getCurrentLocation(context)
+        .then((value) => {print(location.latitude), print(location.longitude)});
   }
 
   @override
