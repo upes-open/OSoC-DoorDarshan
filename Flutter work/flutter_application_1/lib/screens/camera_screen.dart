@@ -87,9 +87,7 @@ class _CameraScreenState extends State<CameraScreen> {
         ),
         actions: [
           GestureDetector(
-            onTap: () {
-              // Handle trailing image tap
-            },
+            onTap: () {},
             child: Padding(
               padding: const EdgeInsets.only(right: 16.0),
               child: IconButton(
@@ -100,14 +98,23 @@ class _CameraScreenState extends State<CameraScreen> {
             ),
           ),
         ],
+        centerTitle: true,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/दूरDarshan.png',
+              width: 200,
+              height: 200,
+            ),
+          ],
+        ),
       ),
       body: CameraBody(
         controller: _controller,
         imageVisible: _imageVisible,
         toggleFlash: _toggleFlash,
-        handleTrailingImageTap: () {
-          // Handle trailing image tap
-        },
+        handleTrailingImageTap: () {},
         showIcons: _showIcons,
       ),
     );
