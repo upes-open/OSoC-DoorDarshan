@@ -18,16 +18,13 @@ Positioned filter(double screenHeight) {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  constraints: BoxConstraints(
-                      maxWidth: 200,
-                      maxHeight: 40), // Adjust the width as needed
+                  constraints: BoxConstraints(maxWidth: 200, maxHeight: 40),
                   child: TextField(
                     style: TextStyle(color: Colors.black),
                     decoration: InputDecoration(
                       prefixIcon: Icon(Icons.search, color: Colors.black),
                       hintText: 'Search',
-                      hintStyle:
-                          TextStyle(fontSize: 20), // Increase the font size
+                      hintStyle: TextStyle(fontSize: 20),
                       filled: true,
                       fillColor: Colors.white,
                       contentPadding: EdgeInsets.symmetric(horizontal: 40.0),
@@ -44,23 +41,17 @@ Positioned filter(double screenHeight) {
                 children: [
                   CustomButton(
                     text: 'Resturants',
-                    onPressed: () {
-                      // Handle button 1 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Cafes',
-                    onPressed: () {
-                      // Handle button 2 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Parks',
-                    onPressed: () {
-                      // Handle button 3 press
-                    },
+                    onPressed: () {},
                   ),
                 ],
               ),
@@ -70,23 +61,17 @@ Positioned filter(double screenHeight) {
                 children: [
                   CustomButton(
                     text: 'Offices',
-                    onPressed: () {
-                      // Handle button 4 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Airports',
-                    onPressed: () {
-                      // Handle button 5 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Hospitals',
-                    onPressed: () {
-                      // Handle button 6 press
-                    },
+                    onPressed: () {},
                   ),
                 ],
               ),
@@ -96,23 +81,17 @@ Positioned filter(double screenHeight) {
                 children: [
                   CustomButton(
                     text: 'Libraries',
-                    onPressed: () {
-                      // Handle button 4 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'ATMs',
-                    onPressed: () {
-                      // Handle button 5 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Museums',
-                    onPressed: () {
-                      // Handle button 6 press
-                    },
+                    onPressed: () {},
                   ),
                 ],
               ),
@@ -122,23 +101,17 @@ Positioned filter(double screenHeight) {
                 children: [
                   CustomButton(
                     text: 'Pharmacy',
-                    onPressed: () {
-                      // Handle button 4 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Churches',
-                    onPressed: () {
-                      // Handle button 5 press
-                    },
+                    onPressed: () {},
                   ),
                   SizedBox(width: 20),
                   CustomButton(
                     text: 'Police',
-                    onPressed: () {
-                      // Handle button 6 press
-                    },
+                    onPressed: () {},
                   ),
                 ],
               ),
