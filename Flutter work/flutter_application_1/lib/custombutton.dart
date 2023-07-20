@@ -20,10 +20,10 @@ class _CustomButtonState extends State<CustomButton> {
     return TextButton(
       onPressed: widget.onPressed,
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(
-            255, 112, 114, 218)), // Change button color to DeepPurple
-        padding: MaterialStateProperty.all<EdgeInsets>(
-            const EdgeInsets.all(15)), // Increase button size
+        backgroundColor: MaterialStateProperty.all<Color>(
+            Color.fromARGB(255, 112, 114, 218)),
+        padding:
+            MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.all(15)),
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5.0),
@@ -34,7 +34,7 @@ class _CustomButtonState extends State<CustomButton> {
         widget.text,
         style: const TextStyle(
           color: Colors.white,
-          fontSize: 18, // Increase font size
+          fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
       ),
