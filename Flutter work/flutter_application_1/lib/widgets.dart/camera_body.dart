@@ -103,8 +103,22 @@ class _CameraBodyState extends State<CameraBody> {
               ],
             ),
           ),
-        if (isChatVisible) chat(screenHeight),
-        if (isFilterVisible) filter(screenHeight),
+        if (isChatVisible)
+          chat(
+            screenHeight,
+            context,
+            onCloseClicked: () {
+              toggleChatVisibility();
+            },
+          ),
+        if (isFilterVisible)
+          filter(
+            screenHeight,
+            context,
+            onCloseClicked: () {
+              toggleFilterVisibility();
+            },
+          ),
       ],
     );
   }
