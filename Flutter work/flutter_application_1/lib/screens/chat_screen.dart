@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/secondchatscreen.dart';
 
-Positioned chat(double screenHeight) {
+Positioned chat(double screenHeight, BuildContext context,
+    {required Function onCloseClicked}) {
   return Positioned(
     bottom: 0,
     left: 0,
@@ -56,7 +58,15 @@ Positioned chat(double screenHeight) {
                             ),
                           ),
                           IconButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      SecondChatScreen(cameras: []),
+                                ),
+                              );
+                            },
                             icon: Icon(Icons.send),
                             color: Colors.black,
                           ),
@@ -66,6 +76,19 @@ Positioned chat(double screenHeight) {
                   ),
                 ],
               ),
+            ),
+          ),
+          Positioned(
+            top: 0,
+            right: 0,
+            child: IconButton(
+              icon: Icon(
+                Icons.close,
+                color: Colors.black,
+              ),
+              onPressed: () {
+                onCloseClicked();
+              },
             ),
           ),
         ],
